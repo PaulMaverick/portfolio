@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-1: #FFE194;
+    --color-2: #E8F6EF;
+    --color-3: #B8DFD8;
+    --color-4: #8945c5;
+    --color-5: rgb(191, 220, 243);
+    --color-6: rgb(229, 230, 170);
+}
+
+
+header {
+    color: white;
+}
+
+.headerBtn {
+    border: 3px solid rgb(191, 220, 243);
+    background-color: transparent;
+    padding: 5px 15px 5px 15px;
+    color: rgb(191, 220, 243) ;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.headerBtn:hover{  
+    background-color: var(--color-5);
+    color: rgb(33, 35, 36);
+    transition: .6s ease-in-out;
+}
+.introBody {
+    position: relative;
+    background-image: url(./images/bgimage1.jpg);
+    height: 100vh;
+}
+
+.introText {
+    color: white;
+    margin-top: 12%;
+    background: -webkit-linear-gradient( rgb(229, 230, 170), rgb(222, 223, 178),  rgb(191, 220, 243));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+    font-size: 40px;
+}
+ 
+.p2 {
+    margin-top: -40px;
+    font-size: 80px;
+    
+}
+.p3 {
+    margin-top: -40px;
+    font-size: 80px;
+}
+
+.introBtn{
+    gap: 20px;
+}
+
+.btn1 {
+    border: 3px solid rgb(191, 220, 243);
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    color: rgb(191, 220, 243) ;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 50px;
+    
+}
+
+.btn1:hover{
+    background-color: var(--color-5);
+    color: rgb(33, 35, 36);
+    transition: .6s ease-in-out;
+}
+
+.btn2 {
+    border: 3px solid rgb(191, 220, 243);
+    background-color: transparent;
+    padding: 10px 50px 10px 50px;
+    color: rgb(191, 220, 243) ;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.btn2:hover{
+    background-color: var(--color-5);
+    color: rgb(33, 35, 36);
+    transition: .6s ease-in-out;
+}
+
+.arrowDown {
+    margin-top: 17%;
+    left: 15%;
+    margin-left: -20px;
+}
+
+.arrowDown i {
+    animation: updown 2s ease infinite;
+    cursor: pointer;
+    height: 10px;
+    color: #D6D5A8;
+}
+
+@keyframes updown {
+    0% {
+      transform: translateY(-5%);
+    }
+  
+    50% {
+      transform: translateY(100%);
+    }
+  
+    100% {
+      transform: translateY(-5%);
+    }
+}
+
+.arrowUp{
+    animation: updown 2s ease infinite;
+    height: 10px;
+    cursor: pointer;
+
+}
+
+.arrowUp i {
+    margin-top: 20px;
+    
+    color: var(--color-4);
+}
+
+.aboutMe {
+    height: 100vh;
+    background-color: rgb(241, 237, 237);
+}
+
+.amh1 {
+    color: var(--color-4);
+}
+
+.amBtn
+ {
+    border: 3px solid var(--color-4);
+    background-color: transparent;
+    padding: 5px 15px 5px 15px;
+    color: var(--color-4);
+    font-weight: bold;
+    border-radius: 10px;
+ }
+
+.amBtn:hover{
+    background-color: var(--color-4);
+    color: white;
+    transition: .4s ease-in-out;
+}
+
+.leftSide {
+    width: 45%;
+    text-align: justify;
+}
+
+.leftSide h3 {
+    color: var(--color-4);
+}
+
+.rigthSide {
+    width: 45%;
+}
+
+.rigthSide h3 {
+    color: var(--color-4);
+}
+
+.techBox {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border: 2px solid rgb(212, 212, 212);
+    margin: 10px; 
+    transition: .5s ease-in-out;   
+}
+
+.techBox:hover {
+    border: 2px solid var(--color-4);
+    color: var(--color-4);
+    
+    transform: translatey(-25%);
+}
+
+.amArrowDown {
+    margin-top: 30%;
+    left: 15%;
+    margin-left: -20px;
+
+}
+.amArrowDown i {
+    animation: updown 2s ease infinite;
+    cursor: pointer;
+    height: 10px;
+    color: var(--color-4);
+}
+
+.works {
+    height: 100vh;
+}
+
+.bgDesign {
+    background-color: var(--color-3);
+    height: 300px;
+    z-index: -2000;
+}
+
+.wArrowDown {
+    margin-top: 20%;
+    left: 15%;
+    margin-left: -20px;
+
+}
+.wArrowDown i {
+    animation: updown 2s ease infinite;
+    cursor: pointer;
+    height: 10px;
+    color: var(--color-4);
+}
+
+.contact {
+    height: 100vh;
+}
