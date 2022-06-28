@@ -98,7 +98,7 @@ header {
 }
 
 .arrowDown {
-    margin-top: 10%;
+    margin-top: 5%;
     left: 15%;
     margin-left: -20px;
 }
@@ -233,4 +233,45 @@ header {
 
 .contact {
     height: 100vh;
+    
+}
+
+.contact h1 {
+    color: var(--color-4);
+}
+
+.form-container {
+    margin-left: 30%;
+}
+
+.form-body {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 3px rgb(137, 69, 197, .5);
+}
+
+.form-body input, textarea {
+    padding: 5px;
+    border: 1px solid var(--color-4);
+    border-radius: 10px;
+}
+
+.form-btn {
+    border: 1px solid var(--color-4);
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 10px;
+    color: var(--color-4);
+    font-weight: bolder;
+    transition: .5s ease-in-out;
+}
+
+.form-btn:hover {
+    background-color: var(--color-4);
+    color: white;
 }

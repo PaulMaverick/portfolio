@@ -181,7 +181,7 @@
             </div>
     </section>
     <section class="contact" id="contact">
-        <div class="container">
+        <div class="container d-flex flex-column m-auto">
             <div class="arrowUp text-center">
              <a href="#works"><i class="fa-solid fa-circle-arrow-up fa-xl"></i></a>
              </div>
@@ -189,9 +189,13 @@
                  <h1>Contact Me</h1>
                  <h2>feel free to say Hello!</h2>
              </div>
-             <div>
-                <form action="">
-                    
+             <div class="form-container">
+                <form class="form-body">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Company">
+                    <textarea placeholder="Leave your message here" rows="15"></textarea>
+                    <button class="form-btn">Leave Message</button>
                 </form>
              </div>
          </div>
@@ -200,25 +204,6 @@
     
     </main>
 
-    <footer>
-        <div class="copyrigth">
-            Made by Paul
-            c 2022
-        </div>
-
-        <!-- this would be considered if the social media icons arent added to be sticky -->
-        <div>
-            <ul>
-                <li>facebook</li>
-                <li>linkdn</li>
-                <li>github</li>
-            </ul>
-        </div>
-    <!-- This would bring us back to the top. but this is not finalized since the the header is a sticky one -->
-        <div class="arrowUp">
-            arrow up
-        </div>
-    </footer>
 
      <!-- MDB -->
     <script
