@@ -16,3 +16,4 @@ function developlaza() {
 function developizza() {
     window.location = ('https://developizza-ofviadjre-xchan824.vercel.app')
 }
+
