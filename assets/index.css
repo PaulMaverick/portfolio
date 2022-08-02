@@ -142,6 +142,7 @@ header {
 .aboutMe {
     height: 100vh;
     background-color: rgb(241, 237, 237);
+    overflow: scroll
 }
 
 .amh1 {
@@ -198,7 +199,7 @@ header {
 }
 
 .amArrowDown {
-    margin-top: 15%;
+    margin-top: 5%;
     left: 15%;
     margin-left: -20px;
 
@@ -222,7 +223,7 @@ header {
 }
 
 .wArrowDown {
-    margin-top: 10%;
+    margin-top: 5%;
     left: 15%;
     margin-left: -20px;
 
@@ -374,4 +375,23 @@ header {
     margin-top: 15px;
 }
 
+.lowerside-am {
+    width: inherit;
+    padding: 50px 0px 0px 70px;
+} 
 
+.amls-header {
+
+    color: var(--color-4);
+}
+
+.ls-text {
+    gap: 200px;
+}
+
+.ls-rightside {
+    width: 30%;
+}
+.ls-leftside {
+    width: 30%;
+}
