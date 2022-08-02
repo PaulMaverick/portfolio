@@ -42,7 +42,7 @@ header {
 
 .introText {
     color: white;
-    margin-top: 12%;
+    margin-top: 5%;
     background: -webkit-linear-gradient( rgb(229, 230, 170), rgb(222, 223, 178),  rgb(191, 220, 243));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -394,4 +394,33 @@ header {
 }
 .ls-leftside {
     width: 30%;
+}
+
+@media screen and (max-width: 1500px) {
+    .introText {
+        margin-top: 10%;   
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .introText {
+        margin-top: 15%;   
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .introText {
+        margin-top: 20%;   
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .introText {
+        margin-top: 30%;   
+    }
+    
 }
